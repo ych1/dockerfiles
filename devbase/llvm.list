@@ -1,0 +1,8 @@
+deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty main
+deb-src http://llvm.org/apt/trusty/ llvm-toolchain-trusty main
+# 3.6 
+deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty-3.6 main
+deb-src http://llvm.org/apt/trusty/ llvm-toolchain-trusty-3.6 main
+# 3.7 
+deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty-3.7 main
+deb-src http://llvm.org/apt/trusty/ llvm-toolchain-trusty-3.7 main
