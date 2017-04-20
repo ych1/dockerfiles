@@ -4,8 +4,8 @@ FROM ubuntu:trusty
 #wget http://nginx.org/download/nginx-1.11.5.tar.gz
 
 #COPY ./sources.list /etc/apt/sources.list
-#COPY  master.zip master.zip
-#COPY  nginx.tar.gz nginx.tar.gz
+COPY  master.zip master.zip
+COPY  nginx.tar.gz nginx.tar.gz
 RUN apt-get update 
 
 RUN apt-get -y install build-essential \
